@@ -9,4 +9,3 @@ for d in depths:
         increases += 1
     prev = d
 print(increases)
-
