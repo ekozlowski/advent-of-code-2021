@@ -1,3 +1,7 @@
+"""
+There are much simpler ways to solve this, but I wanted to experiment with some deques and coroutines in Python.
+
+"""
 from collections import deque
 depths = deque([int(x.strip()) for x in open('../input.txt', 'r').readlines()])
 
