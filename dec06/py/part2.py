@@ -1,7 +1,3 @@
-initial = "3,4,3,1,2"
-fish = map(int, initial.split(','))
-
-
 def iterate_day(old):
     new = {8: old.get(0, 0), 0: old.get(1, 0), 1: old.get(2, 0), 2: old.get(3, 0), 3: old.get(4, 0), 4: old.get(5, 0),
            5: old.get(6, 0), 6: old.get(7, 0), 7: old.get(8, 0)}
